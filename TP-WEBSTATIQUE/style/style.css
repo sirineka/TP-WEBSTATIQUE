@@ -15,14 +15,13 @@
   --fourth: rgb(135, 160, 159);
 }
 
-/*********************  RESET CSS DEFAULT *********************/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/******************** STRUCTURE *******************/
+
 html,
 body {
   background-color: var(--third);
@@ -219,7 +218,7 @@ h4 {
   padding: 3em;
 }
 .input-group input {
-  padding: 1em 6em;
+  padding: 1em 3em;
   border-radius: 5%;
 }
 .row h1 {
@@ -284,6 +283,11 @@ h3 {
   color: black;
   text-align: center;
 }
+.article-image-1 img{
+  width: 300px;
+  overflow: hidden;
+}
+
 .article-row {
   display: flex;
   flex-wrap: wrap;
